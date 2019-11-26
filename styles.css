@@ -33,8 +33,58 @@
 }
 
 .big-box {
-  display: flex;
   justify-content: space-around;
-  flex-direction: column;
   align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+.loginInfo {
+  justify-content: left;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#caubig {
+  font-size: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: #565c60;
+}
+
+#LN,
+#FN {
+  font-size: 22px;
+}
+
+.selectsize {
+  font-size: 20px;
+}
+
+.tripleBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.littleBoxes {
+  font-size: 28px;
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.userinfo {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 15px;
 }
